@@ -13,7 +13,7 @@ export const minikitConfig = {
   accountAssociation: {
     header: "eyJmaWQiOjI4MjUwNiwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDkwRDJmQzAwMzQ4MzY2MjkxYmIxYWQ1QmZkMkJCMkY2ODE1MjEwZDYifQ",
     payload: "eyJkb21haW4iOiJ3YWl0bGlzdC1kZW1vLXZpcmlkLnZlcmNlbC5hcHAifQ",
-    signature: "AAAAAAAAAAAAAAAAyhG94Fl3s2MRZwKIYr4qFzl2yhEAAAAAAAAAAAAAAAA..."
+    signature: "AAAAAAAAAAAAAAAAyhG94Fl3s2MRZwKIYr4qFzl2yhEAAAAAAAA..."
   },
   miniapp: {
     version: "1",
@@ -35,5 +35,3 @@ export const minikitConfig = {
     ogImageUrl: `${ROOT_URL}/blue-hero.png`,
   },
 } as const;
-
-
